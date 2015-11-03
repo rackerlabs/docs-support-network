@@ -1,0 +1,430 @@
+/* Basic Clearfix */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+.ie6 .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {margin: 0;}
+
+body {
+	font-family:'Source Sans Pro', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body .container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body h3 {
+	font-weight: 400;
+	color: #666;
+	font-size: 26px;
+	line-height: 18px;
+	padding-bottom: 10px;
+	margin: 0px 0 25px 0;
+}
+
+body h3 a:link,
+body h3 a:visited {
+	text-decoration: none;
+	color: #666;
+}
+
+body h3 a:link:hover,
+body h3 a:visited:hover {text-decoration: underline;}
+
+body .product-section {
+    width: 100%;
+    padding: 35px 0;
+    margin: 0;
+    background: #fff;
+}
+
+body .product-section .ocarousel {
+	display: none;
+	height: 280px;
+}
+
+body .product-section .ocarousel_window {
+    background: rgba(0, 0, 0, 0.2);
+    height: 250px;
+    width: 100%;
+}
+
+body .product-section .ocarousel_window .ocarousel_window_slides {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 50000px;
+    padding-top: 22px;
+    white-space: nowrap;
+}
+
+body .product-section .card {
+    width: 130px;
+    background: #eee;
+    margin-left: 19px;
+    padding: 15px 12px;
+    float: left;
+    height: 175px;
+	background-repeat: no-repeat;
+	background-position: 15px 15px;
+
+	-moz-transition: all .15s linear;
+	-webkit-transition: all .15s linear;
+	transition: all .15s linear;
+}
+
+body .product-section .card:hover {background-color: #fff;}
+
+body .product-section .card.support-servers {
+	background-image: url('../../images/icon-servers.png');
+    background-image: none, url('../../images/icon-servers.svg');
+}
+
+body .product-section .card.support-sites {
+	background-image: url('../../images/icon-sites.png');
+    background-image: none, url('../../images/icon-sites.svg');
+}
+
+body .product-section .card.support-files {
+	background-image: url('../../images/icon-files.png');
+    background-image: none, url('../../images/icon-files.svg');
+}
+
+body .product-section .card.support-managed {
+	background-image: url('../../images/icon-managed.png');
+    background-image: none, url('../../images/icon-managed.svg');
+	background-position: 12px 12px;
+}
+
+body .product-section .card.support-databases {
+	background-image: url('../../images/icon-databases.png');
+    background-image: none, url('../../images/icon-databases.svg');
+}
+
+body .product-section .card.support-load-balancers {
+	background-image: url('../../images/icon-load-balancers.png');
+    background-image: none, url('../../images/icon-load-balancers.svg');
+}
+
+body .product-section .card.support-block-storage {
+	background-image: url('../../images/icon-block-storage.png');
+    background-image: none, url('../../images/icon-block-storage.svg');
+}
+
+body .product-section .card.support-dns {
+	background-image: url('../../images/icon-dns.png');
+    background-image: none, url('../../images/icon-dns.svg');
+}
+
+body .product-section .card.support-backup {
+	background-image: url('../../images/icon-backup.png');
+    background-image: none, url('../../images/icon-backup.svg');
+}
+
+body .product-section .card.support-drive {
+	background-image: url('../../images/icon-drive.png');
+    background-image: none, url('../../images/icon-drive.svg');
+}
+
+body .product-section .card.support-monitoring {
+	background-image: url('../../images/icon-monitoring.png');
+    background-image: none, url('../../images/icon-monitoring.svg');
+}
+
+body .product-section .card.support-networks {
+	background-image: url('../../images/icon-networks.png');
+    background-image: none, url('../../images/icon-networks.svg');
+}
+
+body .product-section .card.support-identity {
+	background-image: url('../../images/icon-identity.png');
+    background-image: none, url('../../images/icon-identity.svg');
+}
+
+body .product-section .card.support-queues {
+	background-image: url('../../images/icon-queues.png');
+    background-image: none, url('../../images/icon-queues.svg');
+}
+
+body .product-section .card.support-auto-scale {
+	background-image: url('../../images/icon-auto-scale.png');
+    background-image: none, url('../../images/icon-auto-scale.svg');
+}
+
+body .product-section .card.support-big-data {
+	background-image: url('../../images/icon-big-data.png');
+    background-image: none, url('../../images/icon-big-data.svg');
+}
+
+body .product-section .card.support-images {
+	background-image: url('../../images/icon-images.png');
+    background-image: none, url('../../images/icon-images.svg');
+}
+
+body .product-section .card.support-private-cloud {
+	background-image: url('../../images/icon-private-cloud.png');
+    background-image: none, url('../../images/icon-private-cloud.svg');
+}
+
+body .product-section .card.support-rackconnect {
+	background-image: url('../../images/icon-rackconnect.png');
+    background-image: none, url('../../images/icon-rackconnect.svg');
+}
+
+body .product-section .card.support-email {
+	background-image: url('../../images/icon-email.png');
+    background-image: none, url('../../images/icon-email.svg');
+}
+
+body .product-section .card.support-exchange {
+	background-image: url('../../images/icon-exchange.png');
+    background-image: none, url('../../images/icon-exchange.svg');
+}
+
+body .product-section .card h4 {
+	margin: 0 0 10px;
+	padding-left: 50px;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 15px;
+	color: #666;
+}
+
+body .product-section .card h4 span {
+	font-weight: 400;
+	display: block;
+	font-size: 12px;
+}
+
+body .product-section .card h4.small {font-size: 13px;}
+body .product-section .card h4.x-small {font-size: 10px;}
+body .product-section .card h4.nowrap {white-space: nowrap;}
+body .product-section .card h4.padding-more {padding-left: 53px;}
+
+body .product-section .card .unstyled {
+    margin: 25px 0 0 5px;
+    padding-left: 0px;
+    list-style: none;
+    font-size: 12px;
+}
+
+body .product-section .card .unstyled li a,
+body .product-section .card .unstyled li a:visited {
+	display: block;
+    padding: 5px 0;
+    color: #1e82d7;
+    text-decoration: none;
+
+	-moz-transition: all .15s linear;
+	-webkit-transition: all .15s linear;
+	transition: all .15s linear;
+}
+
+body .product-section .card .unstyled li a:hover {text-decoration: underline;}
+body .product-section .ocarousel_window .ocarousel_window_slides>* {
+    float: left;
+    white-space: normal;
+    padding: 0px 37px;
+}
+
+body .product-section .ocarousel_indicators {width: 100%;}
+body .product-section .ocarousel_indicators svg {
+    height: 55px;
+    margin: -55px auto 0 auto;
+    width: 100%;
+}
+
+body .product-section .ocarousel_indicators svg circle {cursor: pointer;}
+
+body .product-section .indicator {
+    position: relative;
+    bottom: 155px;
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: rgba(75, 75, 75, 0.4);
+    background: none;
+    text-decoration: none;
+    font-weight: 200;
+    cursor: pointer;
+	
+	-moz-transition: all .15s linear;
+	-webkit-transition: all .15s linear;
+	transition: all .15s linear;
+}
+
+body .product-section .indicator:hover {color: #4b4b4b;}
+body .product-section .right {left: 909px;}
+body .product-section .left {left: 20px;}
+
+body .community-section {
+    background: #eee;
+    padding: 35px 0 40px 0;
+}
+
+body .community-section .span4 {
+    width: 31.8%;
+    float: left;
+    margin-right: 20px;
+}
+
+body .community-section .span4 h5 {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+	font-weight: 400;
+	border-bottom: 1px dotted #bbb;
+}
+
+body .community-section .span4 h5 a:link , body .community-section .span4 h5 a:visited {
+    text-decoration: none;
+    color: #666;
+}
+
+body .community-section .span4 h5 a:hover {
+    text-decoration: underline;
+}
+
+body .community-section .span4 h5 i {
+    margin-left: 10px;
+}
+
+body .community-section .span4 .unstyled {
+    list-style: none;
+    padding: 0px;
+    margin-top: 3px;
+}
+
+body .community-section .span4 .unstyled li {
+    width: 90%;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+body .community-section .span4 .unstyled li a:link , body .community-section .span4 .unstyled li a:visited {
+    color: #1e82d7;
+    text-decoration: none;
+}
+
+body .community-section .span4 .unstyled li a:hover {text-decoration: underline;}
+
+body .community-section .no-margin-left {margin-left: 0px;}
+body .community-section .no-margin-right {margin-right: 0px;}
+
+body .quicklinks-section {padding: 35px 0;}
+
+body .quicklinks-section .span6 {
+    float: left;
+    width: 48%;
+}
+
+body .quicklinks-section .span6 h5 {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+	font-weight: 400;
+	color: #666;
+	border-bottom: 1px dotted #bbb;
+	width: 80%;
+}
+
+body .quicklinks-section .span6 .unstyled {
+    list-style: none;
+    padding: 0px;
+    margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+body .quicklinks-section .span6 .unstyled li {
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
+body .quicklinks-section .span6 .unstyled li a:link , body .quicklinks-section .span6 .unstyled li a:visited {
+    text-decoration: none;
+    color: #1e82d7;
+}
+
+body .quicklinks-section .span6 .unstyled li a:hover {text-decoration: underline;}
+
+body .quicklinks-section .span6 .box {
+    float: left;
+    width: 38%;
+    border: 1px solid #ccc;
+    color: #1e82d7;
+    margin: 10px;
+    margin-top: 45px;
+    padding: 10px 15px;
+	
+	-moz-transition: all .15s linear;
+	-webkit-transition: all .15s linear;
+	transition: all .15s linear;
+}
+
+body .quicklinks-section .span6 .box h5 {
+    width: 100%;
+    border-bottom: none;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+	color: #1e82d7;
+}
+
+body .quicklinks-section .span6 .box h5 i {margin-left: 10px;}
+
+body .quicklinks-section .span6 .box p {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body .quicklinks-section .span6 .box:hover {background: #eee;}
+body .quicklinks-section .span6 a.box:link , body .quicklinks-section .span6 a.box:visited {text-decoration: none;}
+
+body .quicklinks-section .span6 .big-box {
+    width: 88%;
+    background: #eee;
+    float: left;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+body .quicklinks-section .span6 .big-box h3 {margin-top: 10px;}
+
+body .quicklinks-section .span6 .big-box .span6 {
+    width: 50%;
+    float: left;
+}
+
+body .quicklinks-section .span6 .big-box .span6 .hidden-box {
+    width: 100%;
+    display: inline;
+    height: 200px;
+}
+
+body .quicklinks-section .buffer-right {margin-left: 30px;}
+
+.support-results-container {padding-top: 35px;}

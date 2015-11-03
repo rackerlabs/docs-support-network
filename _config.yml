@@ -1,0 +1,16 @@
+name: Rackspace Support Network
+url: https://support.rackspace.com
+
+# Build settings
+markdown: redcarpet
+
+assets:
+  sources:
+  - _assets/css
+  - _assets/js
+  - _assets/images
+  css_compressor: ~
+  gzip: false
+
+gems:
+ - jekyll-assets
