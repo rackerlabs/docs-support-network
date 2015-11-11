@@ -1,6 +1,9 @@
 
 # Support Network
 
+[![Build Status](https://travis-ci.org/rackerlabs/docs-support-network.svg?branch=master)](https://travis-ci.org/rackerlabs/docs-support-network)
+
+
 A Deconst based landing site for http://support.rackspace.com.
 
 # Viewing the Site
