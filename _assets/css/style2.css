@@ -301,6 +301,11 @@ body .product-section .card.support-monitoring {
     background-image: none, url('../../images/icon-monitoring.svg');
 }
 
+body .product-section .card.support-metrics {
+    background-image: url('../../images/icon-metrics.png');
+    background-image: none, url('../../images/icon-metrics.svg');
+}
+
 body .product-section .card.support-networks {
     background-image: url('../../images/icon-networks.png');
     background-image: none, url('../../images/icon-networks.svg');
