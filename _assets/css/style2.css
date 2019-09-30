@@ -39,7 +39,7 @@ a:hover {
     color: #333;
 }
 
-#container a:link {font-size: 16px;}
+#container a:link {font-size: 1.2em;}
 
 body .container {
     width: 960px;
