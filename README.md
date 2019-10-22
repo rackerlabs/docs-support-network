@@ -3,7 +3,7 @@
 
 [![Build Status](https://build.developer.rackspace.com/rackerlabs/docs-support-network/badge?branch=master)](https://build.developer.rackspace.com/rackerlabs/docs-support-network/)
 
-A Deconst based landing site for http://support.rackspace.com.
+A Deconst based landing site for https://support.rackspace.com.
 
 # Viewing the Site
 
