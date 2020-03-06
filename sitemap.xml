@@ -406,7 +406,7 @@ permalink: sitemap.xml
   <url><loc>https://support.rackspace.com/how-to/how-to-change-the-mysql-timeout-on-a-server/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/how-to-change-your-server-rootadmin-password-from-your-account/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/how-to-choose-your-cloud-server-flavor/</loc></url>
-  <url><loc>https://support.rackspace.com/how-to/how-to-install-a-lamp-stack-on-centos-fedora-or-red-hat/</loc></url>
+  <url><loc>https://support.rackspace.com/how-to/how-to-install-a-lamp-stack-on-rhel-6-based-distributions/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/increase-size-of-cloud-boot-from-volume-server-system-disk/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/cloud-servers/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/install-an-ssl-certificate/</loc></url>
@@ -456,6 +456,7 @@ permalink: sitemap.xml
   <url><loc>https://support.rackspace.com/how-to/manually-enable-auto-updates-on-rhel-and-centos-public-cloud-servers/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/manually-enable-auto-updates-on-windows-2012-and-windows-2008-public-cloud-servers/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources/</loc></url>
+  <url><loc>https://support.rackspace.com/how-to/memory-monitoring-and-management/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/migracion-de-nube-a-nube/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/migrate-from-parse-to-rackspace/</loc></url>
@@ -618,6 +619,7 @@ permalink: sitemap.xml
   <url><loc>https://support.rackspace.com/how-to/id-federation-map-policies-permissions-dedicated/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/dedicated-hosting/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops/</loc></url>
+  <url><loc>https://support.rackspace.com/how-to/manage-dns-records-in-the-myrackspace-portal/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/manage-local-users-in-the-myrackspace-portal/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/manage-user-permissions-for-dedicated-hosting/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/modify-an-access-lists-execution-order-with-firewall-manager-v2/</loc></url>
