@@ -904,10 +904,6 @@ permalink: sitemap.xml
   <url><loc>https://support.rackspace.com/how-to/what-is-a-cdn/</loc></url>
   <url><loc>https://support.rackspace.com/how-to/work-with-origins-and-origin-rules-in-rackspace-cdn/</loc></url>
 
-  <!--Cloud Native Security-->
-
-  <url><loc>https://support.rackspace.com/how-to/cloud-native-security/</loc></url>
-
   <!--Rackspace Email Archiving-->
 
   <url><loc>https://support.rackspace.com/how-to/add-and-edit-archive-users-in-cloud-office/</loc></url>
